@@ -1,0 +1,13 @@
+{
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "account": "node utils/createAccount.js"
+    },
+    "dependencies": {
+        "@celo/contractkit": "0.2.14",
+        "truffle-plugin-blockscout-verify": "git+https://github.com/celo-org/truffle-plugin-blockscout-verify#91627b3",
+        "core-js": "^3.6.5"
+    },
+    "devDependencies": {},
+    "private": true
+}
